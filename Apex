@@ -10,7 +10,7 @@ function Library:Setup()
 	local version = LRM_ScriptVersion and "v" .. table.concat(LRM_ScriptVersion:split(""), ".") or "by Apex devs"
 	Window = UI:CreateWindow({
 		Title = "grow a garden",
-		Icon = "rbxassetid://82981159377493",
+		Icon = "Zap",
 		Author = "by Apex devs",
 		Folder = "ApexHub",
 		Size = UDim2.fromOffset(580, 460),
